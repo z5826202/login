@@ -22,6 +22,7 @@ public class LoginHandleForRedis extends AbstractLoginHandle{
     public Integer getOrder() {
         super.setOrder(30);
         return super.getOrder();
+
     }
 
     @Autowired
